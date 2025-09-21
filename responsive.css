@@ -1,0 +1,187 @@
+@media (max-width:1024px){
+    /*about srction*/
+}
+
+@media(max-width: 991px){
+
+    /*Custom Classes*/
+
+
+.navbar-nav{
+   margin-left: 0rem;
+}
+.navigation-wrap .nav-item{
+    padding:0rem;
+    transition: all 200ms linear;
+
+}
+.BannerF{
+    padding: 14rem 0 12rem;
+    text-align: center;
+}
+.priyanka{
+    color: #ffc107;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 1.75rem;
+    text-align: center;
+}
+.am{
+    color: white;
+    text-align: center;
+}
+h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.75rem;
+    text-align: center;
+}
+.frontend{
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+.webBtn{
+    padding: 1rem;
+    color: black;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 0.75rem;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 1rem;
+   
+}
+.workBtn{
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 0.75rem;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    margin-left: 50px auto;
+}
+.hello{
+    color: #ffc107;
+    padding-bottom: 130px;
+    font-size: 2rem;
+    text-align: center;
+}
+#text {
+      border-right: 2px solid #00ffcc;
+      white-space: nowrap;
+      overflow: hidden;
+      color: white;
+}
+.navbar-toggler-icon{
+    color: rgb(155,153,153);
+    display: flex;
+    font-family: Menlo, Monaco;
+    font-size: 0.65rem;
+}
+.aboutShadow{
+    color: #27282a;
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    position: absolute;
+    left: 25px;
+    top: 1400px;
+    z-index: -1;
+
+}
+.resumeShadow{
+    color: #27282a;
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    position: absolute;
+    left: 20px;
+    top: 2190px;
+    z-index: -1;
+ }
+.priyuimg{
+    width:850px;
+    height: 600px;
+    position: absolute;
+    left: 0px;
+    top:55px;
+    z-index: -1;
+}
+.BannerF{
+    padding: 10rem 0 8rem;;
+}
+.BannerFi{
+    padding: 0rem 0 0rem;
+}
+.abcd{
+    margin-right: 0px;
+}
+.row.custom {
+    width:100%;
+    margin: auto;
+}
+.projectShadow{
+    color: #27282a;
+    font-size: 4.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    position: absolute;
+    left: 30px;
+    top: 4520px;
+    z-index: -1;
+ }
+ .resumepara{
+    color: rgb(155, 153, 153);
+ }
+ .projectCol{
+    width: 100%;
+    margin: auto;
+ }
+ .resume{
+    color: white;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3rem;
+ }
+ .contactShadow{
+    color: #27282a;
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    position: absolute;
+    left: 20px;
+    top: 5850px;
+    z-index: -1;
+ }
+ .priyuRimg{
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+}
+.findtxt{
+    font-size: 1rem;
+    color: rgb(155, 153, 153);
+}
+
+
+/* .floatf{
+    float: left;
+} */
+.divIcon{
+    height: 120px;
+    width: 120px;
+    background-color: #1c1d1d;
+    border-radius: 50%;
+    margin: auto;
+}
+}

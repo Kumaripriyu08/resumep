@@ -1,0 +1,541 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css);
+
+*,
+*:after,
+*:before{
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+   --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+a:hover {
+    color: #ffc107 !important;
+}
+ul, ol{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black
+}
+.navbar-brand{
+    color: white;
+    font-size: 1.95rem;
+    font-weight:800;
+    font-family: -apple-system;
+
+}
+.nav-link.active{
+    color: #ffc107 !important;
+}
+.nav-link{
+    color: white;
+    margin-left: 1.25rem;
+    position: relative;
+    padding-bottom: 5px;
+
+}
+
+.navbar-toggler-icon{
+    color: white;
+    display: flex;
+    font-family: Menlo, Monaco;
+    font-size: 0.65rem;
+}
+.abcd{
+    margin-right: 10px;
+}
+
+/*----------Show Underline on navbar------------*/
+.nav-link::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background-color: #ffc107; /* underline color */
+      transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    /* Optional: highlight active link */
+    .nav-link.active::after {
+      width: 100%;
+    }
+
+
+    
+.navigation-wrap{
+    position: fixed;
+    background-color:black;
+    width:  100%;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.navigation-wrap .nav-item{
+    padding: 0.65rem;
+    transition: all 200ms linear;
+
+}
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+/*-------------------------------------Home-Style--------------------*/
+.BannerF{
+    padding: 10rem 0 8rem;
+}
+.BannerFi{
+    padding: 5rem 0 4rem;
+}
+.hello{
+    color: #ffc107;
+    padding-bottom: 130px;
+    font-size: 1rem;
+}
+.priyanka{
+    color: #ffc107;
+    font-weight: 800;
+    font-size: 3.75rem;
+    margin-bottom: 2.5rem;
+}
+.am{
+    color: white;
+}
+h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+.frontend{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.webBtn{
+    padding: 1rem;
+    color: black;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 0.75rem;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+}
+.workBtn{
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 0.75rem;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+}
+#text {
+      border-right: 2px solid #00ffcc;
+      white-space: nowrap;
+      overflow: hidden;
+      color: white;
+}
+h3{
+    color: white;
+}
+html {
+      scroll-behavior: smooth;
+    }
+/* .home{
+    
+      opacity: 0;
+      transform: translateY(100px);
+      animation: slideUp 1s ease-out forwards;
+    }
+
+    @keyframes slideUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    } */
+
+.priyuimg{
+    width:550px;
+    height: 600px;
+}
+
+/*--------------------About-Me-Section----------------------*/
+.priyuRimg{
+    border-radius: 50%;
+    width: 220px;
+    height: 180px;
+}
+
+.aboutme{
+    color: rgb(155, 153, 153);
+    line-height: 200%;
+    
+}
+
+.aboutM{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.aboutShadow{
+    color: #27282a;
+    font-size: 8.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    position: absolute;
+    left: 760px;
+    top: 740px;
+    z-index: -1;
+}
+
+.language{
+    color: rgb(155, 153, 153);
+}
+.bar-container {
+      width: 100%;
+      background: rgb(51, 50, 50);
+      margin-bottom: 10px;
+     
+    }
+
+    .bar {
+      height: 10px;
+      line-height: 25px;
+      color: rgb(51, 50, 50);
+      background: rgb(51, 50, 50);
+    }
+
+    .html   { width: 85%; background: #ffc107; }
+    .css    { width: 75%; background: #ffc107; }
+    .js     { width: 65%; background: #ffc107; }
+    .python { width: 70%; background: #ffc107; }
+
+
+.profile{
+    color: rgb(155, 153, 153);
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.qualification{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+    
+}
+.row.custom {
+    width:85%;
+    margin: auto;
+}
+.col-sm{
+    width: 90%;
+}
+.profile-row{
+    margin-top:30px;
+}
+
+ #counter {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color:#ffc107;
+      transition: all 0.3s ease;
+ }
+ .increase{
+    color: #ffc107;
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+ .project-complete{
+    color: white;
+    font-size: 1.5rem;
+    
+ }
+ /* --------------Resume-Section-------------- */
+ .resume{
+    color: white;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 4rem;
+ }
+ .resumeShadow{
+    color: #27282a;
+    font-size: 8.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    position: absolute;
+    left: 500px;
+    top: 1400px;
+    z-index: -1;
+ }
+ .paddingC{
+    padding: 5rem 0rem 4rem;
+ }
+ .resumepara{
+    color: rgb(155, 153, 153);
+    line-height: 200%;
+    padding: 30px;
+ }
+ .hrline{
+    display: block;
+    border: 0;
+    height: 14px;                    /* thickness */
+    margin: 24px 0;
+    background-image: linear-gradient(to right, white, #ffc107, #fd7e14);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+    
+ }
+ .professional{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family:sans-serif;
+
+
+ }
+ .cardtwo{
+    width: 100%;
+    background-color: #1c1d1d;
+    
+ }
+ .card-title{
+    color: #ffc107;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 700;
+ }
+ .card-subtitle{
+    color: white;
+    font-size: 1.75rem;
+    text-transform: capitalize;
+
+ }
+ .pythonlang{
+    color:rgb(155, 153, 153);
+    font-size: 1rem;
+    font-weight:bold;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+ }
+ .card-text{
+    color: rgb(155, 153, 153);
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: capitalize;
+ }
+ .CVBtn{
+    padding: 1rem;
+    color: black;
+    background-color: #ffc107;
+    border: 2px solid blue;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 0.85rem;
+    width: 160px;
+    height: 65px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px auto;
+ }
+.projectShadow{
+    color: #27282a;
+    font-size: 8.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    position: absolute;
+    left: 500px;
+    top: 2250px;
+    z-index: -1;
+ }
+ .projectCol{
+    width: 50%;
+    margin: auto;
+ }
+ /* ------------Contact-Me----------------- */
+ .contactShadow{
+    color: #27282a;
+    font-size: 8.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    position: absolute;
+    left: 500px;
+    top: 2550px;
+    z-index: -1;
+ }
+ .card{
+    width: 100%;
+ }
+ .cardThree{
+    background-color: black;
+ }
+ .website{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+ }
+ .card img {
+      transition: transform 0.3s ease-in-out; /* Smooth animation */
+    }
+    .card:hover img {
+      transform: scale(1.10); /* Slight zoom */
+    }
+.icon{
+    font-size: 2rem;
+    color: #ffc107;
+    /* background-color: #1c1d1d;
+    border-radius: 50% 50% 50% 50%; */
+    padding: 10px;
+       
+}
+.divIcon{
+    height: 120px;
+    width: 120px;
+    background-color: #1c1d1d;
+    border-radius: 50%;
+}
+
+.iconF{
+    font-size: 1.5rem;
+    color: #ffc107;
+    /* background-color: #1c1d1d;
+    border-radius: 50% 50% 50% 50%; */
+    padding: 10px;
+}
+.divIconF{
+    height: 50px;
+    width: 50px;
+    background-color: #1c1d1d;
+    border-radius: 50%;
+    margin: auto;
+    margin-left: 10px;
+    text-align: center;
+    float: left;
+}
+
+.contact{
+    font-size:1rem;
+   
+
+}
+.contactpara, a{
+    color: white;
+
+}
+.allabout{
+    color: rgb(155, 153, 153);
+    letter-spacing: 1px;
+}
+#home,
+#about,
+#resume,
+#project,
+#contact{
+  padding: 80px 0;
+}
+
+
+/* Text */
+
+/* Icon wrapper */
+.divIconF {
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: rgb(51, 50, 50);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/* Center icon inside */
+.iconF {
+  font-size: 20px;
+  color: #ffc107;
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .findtxt {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .iconM {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+
+ 
